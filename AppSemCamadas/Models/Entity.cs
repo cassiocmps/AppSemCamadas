@@ -8,7 +8,7 @@ namespace AppSemCamadas.Models
     public abstract class Entity
     {
         // toda classe herdeira tera um Id
-        protected Guid Id { get; set; }
+        public Guid Id { get; set; }
 
         public Entity()
         {

@@ -1,0 +1,5 @@
+modelagem: MODELS
+mapeamento do contexto: DATA -> MIGRATIONS (seta o bd)
+			APPSETTINGS.JSON (conection String)
+			PMC (executa migrations)
+			DATA ANNOTIONS (models)
