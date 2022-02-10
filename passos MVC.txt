@@ -1,5 +1,10 @@
 modelagem: MODELS
+
 mapeamento do contexto: DATA -> MIGRATIONS (seta o bd)
 			APPSETTINGS.JSON (conection String)
-			PMC (executa migrations)
 			DATA ANNOTIONS (models)
+			PMC (executa migrations)
+
+controller with views: controllers > FORNECEDORESCONTROLLER.CS
+			views > _ENDERECO.CSHTML
+			shared > _layout (insere _endereco)
